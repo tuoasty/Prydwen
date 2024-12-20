@@ -3,5 +3,11 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".", // Ensure this points to your project's root
+    "paths": {
+      "*": ["node_modules/*", "src/*"] // Adjust if your components folder is under 'src'
+    }
+  }
 }
