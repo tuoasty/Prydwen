@@ -1,6 +1,6 @@
 import kofi from './assets/Kofi-cup.webp';
 import arrow from './assets/arrow.png';
-import NavButton from './navbutton/navbutton.tsx';
+import {NavButton} from "./navbutton/navbutton.tsx";
 
 export default function NavBar(){
   return(
