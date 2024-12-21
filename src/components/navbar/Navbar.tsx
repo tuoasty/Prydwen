@@ -1,13 +1,17 @@
 import kofi from './assets/Kofi-cup.webp';
-import arrow from './assets/arrow.png';
+import arrowLeft from './assets/arrowLeft.png';
+import arrowRight from './assets/arrowRight.png';
 import {Navbutton} from "./Navbutton.tsx";
+import {useSidebar} from "../../context/SidebarContext.tsx";
 
 export default function Navbar(){
+  const { isOpen, toggleSidebar } = useSidebar();
+
   return(
     <header className="bg-zinc-900 h-[4.5rem] absolute top-0 items-center w-full flex justify-between">
       <div className="h-100% w-100% flex p-2">
-        <button className="ml-7">
-          <img src={arrow} className="h-5" alt=""/>
+        <button className="ml-7" onClick={toggleSidebar}>
+          <img src={isOpen ? arrowLeft : arrowRight} className="h-5" alt=""/>
         </button>
       </div>
       <div className="flex p-2">
