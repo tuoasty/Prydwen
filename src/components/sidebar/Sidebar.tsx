@@ -1,6 +1,6 @@
 import logo from "./assets/logo.png"
 import minlogo from "./assets/minlogo.webp"
-import {useSidebar} from "../../context/SidebarContext.tsx";
+import {useSidebar} from "../../context/useSidebar.ts";
 
 export default function Sidebar(){
     const { isOpen } = useSidebar();

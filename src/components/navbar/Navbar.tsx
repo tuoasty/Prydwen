@@ -2,7 +2,7 @@ import kofi from './assets/Kofi-cup.webp';
 import arrowLeft from './assets/arrowLeft.png';
 import arrowRight from './assets/arrowRight.png';
 import {Navbutton} from "./Navbutton.tsx";
-import {useSidebar} from "../../context/SidebarContext.tsx";
+import {useSidebar} from "../../context/useSidebar.ts";
 
 export default function Navbar(){
   const { isOpen, toggleSidebar } = useSidebar();
