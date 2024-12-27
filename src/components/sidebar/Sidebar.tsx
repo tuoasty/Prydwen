@@ -25,7 +25,7 @@ export default function Sidebar(){
           <img src={isOpen ? logo : minlogo} alt="logo" className="h-10 m-auto"/>
         </div>
         <div className="w-full h-[1px] bg-zinc-700"></div>
-        <div className={`w-64 h-14 relative overflow-hidden mb-2 flex items-center text-gray-300 text-xl ${isOpen ? "justify-evenly" : ""}`}>
+        <button className={`w-64 h-14 relative overflow-hidden mb-2 flex items-center text-gray-300 text-xl ${isOpen ? "justify-evenly" : ""}`}>
           <div className="absolute inset-0 h-full w-full bg-[position:center_top_12.5rem] bg-[size:160%] opacity-30"
                style={{backgroundImage: `url(${starrail})`}}>
           </div>
@@ -33,7 +33,7 @@ export default function Sidebar(){
             <h2 className="relative text-center font-sans font-medium ml-3 leading-tight">Honkai: Star Rail</h2>
           ): <></>}
           <FaRegWindowRestore className={`relative ${isOpen ? "" : "ml-7"}`}/>
-        </div>
+        </button>
         <Sidebutton icon={<HiHome/>} name="Home"></Sidebutton>
         <Sidebutton icon={<MdPeopleAlt/>} name="Characters"></Sidebutton>
         <Sidebutton icon={<FaRankingStar/>} name="Tier list"></Sidebutton>
