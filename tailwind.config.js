@@ -11,6 +11,10 @@ export default {
       }
     },
   },
+  variants: {
+    bgColor: ['group-hover', 'hover'],
+    textColor: ['group-hover', 'hover'],
+  },
   plugins: [],
 }
 

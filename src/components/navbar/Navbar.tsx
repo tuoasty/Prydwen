@@ -16,15 +16,15 @@ export default function Navbar(){
         </button>
       </div>
       <div className="flex p-2">
-        <Navbutton href="https://www.prydwen.gg/star-rail/watch-our-partners" bgColor="bg-purple-500" hoverColor="bg-purple-400">
+        <Navbutton href="https://www.prydwen.gg/star-rail/watch-our-partners" bgColor="bg-purple-500" hoverColor="hover:bg-purple-400">
           <FaTwitch className="text-white size-4" />
           <p className="font-sans font-semibold text-base text-white pl-2">Our Partners</p>
         </Navbutton>
-        <Navbutton href="https://discord.gg/prydwen" bgColor="bg-blue-500" hoverColor="bg-blue-400">
+        <Navbutton href="https://discord.gg/prydwen" bgColor="bg-blue-500" hoverColor="hover:bg-blue-400">
           <FaDiscord className="text-white size-5" />
           <p className="font-sans font-semibold text-sm text-white pl-2">Our Discord</p>
         </Navbutton>
-        <Navbutton href="https://www.prydwen.gg/star-rail/watch-our-partners" bgColor="bg-red-500" hoverColor="bg-red-600">
+        <Navbutton href="https://www.prydwen.gg/star-rail/watch-our-partners" bgColor="bg-red-500" hoverColor="hover:bg-red-600">
           <img src={kofi} className="h-5" alt=""/>
           <p className="font-sans font-semibold text-base text-white pl-2">Buy us a Ko-Fi</p>
         </Navbutton>
