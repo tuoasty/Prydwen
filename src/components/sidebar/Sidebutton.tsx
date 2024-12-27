@@ -14,8 +14,8 @@ export const Sidebutton: FC<Props> = (p) => {
     ${isOpen ? "translate-x-5" : "translate-x-0"}`}>
       {isOpen ? (
         <>
-          <div className="h-10 text-xl flex items-center">{p.icon}</div>
-          <h2 className="text-center ml-3">{p.name}</h2>
+          <div className="h-10 ml-3 text-xl flex items-center">{p.icon}</div>
+          <h2 className="text-center ml-3 text-[0.9rem]">{p.name}</h2>
         </>
       ) : <div className="h-10 ml-5 text-xl flex items-center">{p.icon}</div>}
     </button>
