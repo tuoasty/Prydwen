@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="change hsr sidebar to button">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Prydwen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbutton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/assets/Kofi-cup.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebutton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/minlogo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/starrail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/SidebarContext.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/useSidebar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Homepage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tuoasty&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tuoasty/Prydwen.git&quot;,
+    &quot;accountId&quot;: &quot;f5b3b0d8-9ed5-4dbc-9205-4851f0d63c83&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qN4Ylp8EHvvrp6CDCi7bTbG2XA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KEVIN/!! SLC/Random/Prydwen/src/components/sidebar/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\KEVIN\\!! SLC\\Random\\Prydwen\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\public\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\context" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\styles" />
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\pages" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="" />
+      <created>1734489749878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734489749878</updated>
+      <workItem from="1734489752101" duration="106000" />
+      <workItem from="1734504476215" duration="2422000" />
+      <workItem from="1734581880798" duration="375000" />
+      <workItem from="1734582268020" duration="4205000" />
+      <workItem from="1734669263891" duration="4235000" />
+      <workItem from="1734679029080" duration="36000" />
+      <workItem from="1734679127962" duration="45000" />
+      <workItem from="1734679189720" duration="4622000" />
+      <workItem from="1734685202557" duration="469000" />
+      <workItem from="1734742066256" duration="13458000" />
+      <workItem from="1734759637389" duration="1227000" />
+      <workItem from="1734760885883" duration="7000" />
+      <workItem from="1734917724953" duration="5637000" />
+      <workItem from="1735259972594" duration="11716000" />
+      <workItem from="1735791308784" duration="1877000" />
+      <workItem from="1736124299899" duration="635000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat navbar arrow">
+      <option name="closed" value="true" />
+      <created>1734585212413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734585212413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat navbar arrow">
+      <option name="closed" value="true" />
+      <created>1734585250310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734585250310</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat sidebar">
+      <option name="closed" value="true" />
+      <created>1734745989111</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734745989111</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat sidebar">
+      <option name="closed" value="true" />
+      <created>1734747483667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734747483667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat sidebar logo">
+      <option name="closed" value="true" />
+      <created>1734750951484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734750951484</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix sidebar provider">
+      <option name="closed" value="true" />
+      <created>1734751332187</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734751332187</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat sidebuttons">
+      <option name="closed" value="true" />
+      <created>1735260009192</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735260009192</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix button hover">
+      <option name="closed" value="true" />
+      <created>1735262882270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735262882270</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sidebar final">
+      <option name="closed" value="true" />
+      <created>1735271279175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735271279175</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sidebar final">
+      <option name="closed" value="true" />
+      <created>1735271290339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735271290339</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change hsr sidebar to button">
+      <option name="closed" value="true" />
+      <created>1735271847131</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735271847131</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat navbutton component" />
+    <MESSAGE value="feat navbar arrow" />
+    <MESSAGE value="feat sidebar" />
+    <MESSAGE value="feat sidebar logo" />
+    <MESSAGE value="fix sidebar provider" />
+    <MESSAGE value="feat sidebuttons" />
+    <MESSAGE value="fix button hover" />
+    <MESSAGE value="sidebar final" />
+    <MESSAGE value="change hsr sidebar to button" />
+    <option name="LAST_COMMIT_MESSAGE" value="change hsr sidebar to button" />
+  </component>
+</project>
