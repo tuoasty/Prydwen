@@ -1,18 +1,21 @@
 import Navbar from "./components/navbar/Navbar.tsx";
 import Sidebar from "./components/sidebar/Sidebar.tsx";
 import {SidebarProvider} from "./context/SidebarContext.tsx";
+import HomePage from './pages/Homepage.tsx';
+import { HorizontalLine, VerticalLine } from './components/details/Lines.tsx';
+
 
 function App(){
   return (
-    <div className="h-screen w-screen flex">
+    <div className="h-screen w-auto flex-col">
       <SidebarProvider>
-        <Sidebar/>
-        <div className="w-[1px] h-screen bg-zinc-700"></div>
-        <div className="flex-1 relative">
-          <Navbar/>
-          <div className="pt-[4.5rem] bg-zinc-800 h-full w-full">
-            <div className="w-full h-[1px] bg-zinc-700"></div>
-            {/*  Content*/}
+        <Navbar />
+        <HorizontalLine additionalClass="fixed"></HorizontalLine>
+        <div className="mt-[4.5rem]">
+          <Sidebar></Sidebar>
+          <VerticalLine></VerticalLine>
+          <div className="ml-64 ">
+
           </div>
         </div>
       </SidebarProvider>

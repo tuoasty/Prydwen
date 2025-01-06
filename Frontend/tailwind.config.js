@@ -15,6 +15,5 @@ export default {
     bgColor: ['group-hover', 'hover'],
     textColor: ['group-hover', 'hover'],
   },
-  plugins: [],
 }
 
