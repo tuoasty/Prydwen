@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="backend">
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="connect to db">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.prettierrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.controller.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test/app.e2e-spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -75,11 +72,13 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/KEVIN/!! SLC/Random/Prydwen/src/components/sidebar/assets",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "C:\\KEVIN\\!! SLC\\Random\\Prydwen\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -130,7 +129,7 @@
       <workItem from="1735791308784" duration="1877000" />
       <workItem from="1736124299899" duration="635000" />
       <workItem from="1736124959635" duration="178000" />
-      <workItem from="1736125184367" duration="6533000" />
+      <workItem from="1736125184367" duration="9013000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -244,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736125435711</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="connect to db">
+      <option name="closed" value="true" />
+      <created>1736136554660</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736136554660</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="change hsr sidebar to button" />
     <MESSAGE value="moved folder" />
     <MESSAGE value="backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend" />
+    <MESSAGE value="connect to db" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect to db" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
