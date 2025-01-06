@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="idk so much shit">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="fix stuff">
+      <change afterPath="$PROJECT_DIR$/Frontend/src/components/navbar/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/src/components/navbar/assets/minlogo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/assets/minlogo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/Homepage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/pages/Homepage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tuoasty/Prydwen.git&quot;,
-    &quot;accountId&quot;: &quot;f5b3b0d8-9ed5-4dbc-9205-4851f0d63c83&quot;
+    &quot;accountId&quot;: &quot;f6a1035a-a5d8-43c8-9540-bccae857f4a0&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -52,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/KEVIN/!! SLC/Random/Prydwen",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\KEVIN\\!! SLC\\Random\\Prydwen\\backend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KEVIN/!! SLC/Random/Prydwen&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\KEVIN\\!! SLC\\Random\\Prydwen\\backend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
@@ -78,11 +86,11 @@
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\public\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\frontend\src\components\navbar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\context" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\styles" />
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\pages" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -123,7 +131,8 @@
       <workItem from="1736158226426" duration="229000" />
       <workItem from="1736158473041" duration="168000" />
       <workItem from="1736158654456" duration="119000" />
-      <workItem from="1736159726719" duration="57000" />
+      <workItem from="1736159726719" duration="260000" />
+      <workItem from="1736162378608" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -269,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736158072035</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix stuff">
+      <option name="closed" value="true" />
+      <created>1736159903465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736159903465</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +322,8 @@
     <MESSAGE value="connect to db" />
     <MESSAGE value="prisma module" />
     <MESSAGE value="idk so much shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk so much shit" />
+    <MESSAGE value="fix stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix stuff" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>

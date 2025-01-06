@@ -2,20 +2,27 @@ import Navbar from "./components/navbar/Navbar.tsx";
 import Sidebar from "./components/sidebar/Sidebar.tsx";
 import {SidebarProvider} from "./context/SidebarContext.tsx";
 import { HorizontalLine, VerticalLine } from './components/details/Lines.tsx';
+import { Route, Routes } from 'react-router-dom';
+import { Content } from './components/content/Content.tsx';
+import HomePage from './pages/HomePage.tsx';
+import CharacterPage from './pages/CharacterPage.tsx';
 
 
 function App(){
   return (
-    <div className="h-screen w-auto flex-col">
+    <div className="h-screen w-auto flex-col overflow-hidden">
       <SidebarProvider>
         <Navbar />
-        <HorizontalLine additionalClass="fixed"></HorizontalLine>
-        <div className="mt-[4.5rem]">
-          <Sidebar></Sidebar>
-          <VerticalLine></VerticalLine>
-          <div className="ml-64">
-
-          </div>
+        <HorizontalLine additionalClass="fixed"/>
+        <div className="pt-[4.5rem]">
+          <Sidebar/>
+          <VerticalLine/>
+          <Content>
+            <Routes>
+              <Route path="/" element={<HomePage/>}/>
+              <Route path="/characters" element={<CharacterPage/>}/>
+            </Routes>
+          </Content>
         </div>
       </SidebarProvider>
     </div>

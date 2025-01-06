@@ -3,10 +3,10 @@ import { FaArrowRightToBracket } from "react-icons/fa6";
 import { FaTwitch } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import {useSidebar} from "../../context/useSidebar.ts";
-import logo from '../sidebar/assets/logo.png';
-import minlogo from '../sidebar/assets/minlogo.webp';
 import { Navbutton } from './Navbutton.tsx';
 import { VerticalLine } from '../details/Lines.tsx';
+import logo from "./assets/logo.png";
+import minlogo from "./assets/minlogo.webp";
 
 export default function Navbar(){
   const { isOpen, toggleSidebar } = useSidebar();
