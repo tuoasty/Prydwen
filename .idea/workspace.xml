@@ -4,42 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="change hsr sidebar to button">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Prydwen.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbutton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/assets/Kofi-cup.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebutton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/minlogo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/assets/starrail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/SidebarContext.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/useSidebar.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Homepage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="moved folder">
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +111,7 @@
       <workItem from="1735259972594" duration="11716000" />
       <workItem from="1735791308784" duration="1877000" />
       <workItem from="1736124299899" duration="635000" />
+      <workItem from="1736124959635" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -234,13 +201,22 @@
       <option name="project" value="LOCAL" />
       <updated>1735271847131</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="moved folder">
+      <option name="closed" value="true" />
+      <created>1736125100883</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736125100883</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="feat navbutton component" />
     <MESSAGE value="feat navbar arrow" />
     <MESSAGE value="feat sidebar" />
@@ -250,6 +226,8 @@
     <MESSAGE value="fix button hover" />
     <MESSAGE value="sidebar final" />
     <MESSAGE value="change hsr sidebar to button" />
-    <option name="LAST_COMMIT_MESSAGE" value="change hsr sidebar to button" />
+    <MESSAGE value="moved folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved folder" />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
