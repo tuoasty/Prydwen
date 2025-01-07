@@ -1,14 +1,14 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
-@Controller('items')
+@Controller('characters')
 export class ItemController {
   constructor(private readonly appService: AppService) {}
 
-  // @Get()
-  // async getItems(): Promise<any[]> {
-  //   return this.appService.getItems();
-  // }
+  @Get()
+  async getCharacters(): Promise<any[]> {
+    return this.appService.getCharacters();
+  }
 }
 
 // Insert

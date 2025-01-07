@@ -11,7 +11,12 @@ export class AppService {
   //   })
   // }
   //
-  // async getItems(): Promise<any[]> {
-  //   return this.prisma.item.findMany();
-  // }
+  async getCharacters(): Promise<any[]> {
+    return this.prisma.character.findMany({
+      include:{
+        element:true,
+        path:true
+      }
+    });
+  }
 }

@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="Feat: Routes">
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="Feat: Migrate Seeding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/content/Content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebutton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebutton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prisma/migrations/20250107041400_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/prisma/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/types/item.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/KEVIN/!! SLC/Random/Prydwen",
+    "last_opened_file_path": "C:/KEVIN/!! SLC/Random/Prydwen/frontend/public/static/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -83,12 +77,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "C:\\KEVIN\\!! SLC\\Random\\Prydwen\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\KEVIN\\!! SLC\\Random\\Prydwen\\backend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\frontend\public\static\images" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\public\static" />
@@ -144,7 +139,7 @@
       <workItem from="1736209151353" duration="21000" />
       <workItem from="1736209187619" duration="1192000" />
       <workItem from="1736210746490" duration="2123000" />
-      <workItem from="1736213668206" duration="7669000" />
+      <workItem from="1736213668206" duration="12898000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -314,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736164853566</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Feat: Migrate Seeding">
+      <option name="closed" value="true" />
+      <created>1736223575526</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736223575526</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +355,8 @@
     <MESSAGE value="idk so much shit" />
     <MESSAGE value="fix stuff" />
     <MESSAGE value="Feat: Routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Routes" />
+    <MESSAGE value="Feat: Migrate Seeding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Migrate Seeding" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
