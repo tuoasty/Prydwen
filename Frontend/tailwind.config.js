@@ -8,6 +8,15 @@ export default {
     extend: {
       fontFamily:{
         sans: ['Roboto', 'sans-serif'],
+      },
+      colors:{
+        lightning: "#c65ade",
+        physical: "#979797",
+        fire: "#ee473d",
+        wind: "#61cf93",
+        ice: "#2692d3",
+        quantum: "#6057c9",
+        imaginary: "#e6d863",
       }
     },
   },

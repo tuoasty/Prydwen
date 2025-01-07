@@ -4,8 +4,7 @@ const API = axios.create({
   baseURL: 'http://localhost:3000',
 })
 
-export const fetchItems = async () => {
-  console.log("Fetching items from API...");
-  const response = await API.get('/items');
+export const fetchCharacters = async () => {
+  const response = await API.get('/characters');
   return response.data;
 }
