@@ -13,8 +13,27 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Item {
+model Character {
   id          Int     @id @default(autoincrement())
   name        String
-  description String
+  rarity      Int
+  imageUrl    String
+  elementId   Int
+  element     Element @relation(fields: [elementId], references: [id])
+  pathId      Int
+  path        Path @relation(fields: [pathId], references: [id])
+}
+
+model Element {
+  id          Int     @id @default(autoincrement())
+  name        String
+  color       String
+  imageUrl    String
+  characters  Character[]
+}
+
+model Path {
+  id          Int     @id @default(autoincrement())
+  name        String
+  characters  Character[]
 }

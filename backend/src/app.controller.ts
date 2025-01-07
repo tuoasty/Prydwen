@@ -5,10 +5,10 @@ import { AppService } from './app.service';
 export class ItemController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  async getItems(): Promise<any[]> {
-    return this.appService.getItems();
-  }
+  // @Get()
+  // async getItems(): Promise<any[]> {
+  //   return this.appService.getItems();
+  // }
 }
 
 // Insert
@@ -17,8 +17,8 @@ export class InsertController {
   constructor(private readonly appService: AppService) {
   }
 
-  @Get()
-  insertUser(){
-    return this.appService.createItem("Hi", "Hello");
-  }
+  // @Get()
+  // insertUser(){
+  //   return this.appService.createItem("Hi", "Hello");
+  // }
 }

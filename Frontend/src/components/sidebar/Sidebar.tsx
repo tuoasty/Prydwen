@@ -19,9 +19,7 @@ export default function Sidebar(){
 
     return(
       <aside className={`h-[calc(100%-4.5rem)] fixed bg-zinc-900 flex-col ${isOpen ? "w-64" : "w-[4.5rem]"}`}>
-        <div className="overflow-x-hidden overflow-y-auto
-
-         h-full">
+        <div className={`overflow-x-hidden h-full scrollable ${isOpen ? "overflow-y-auto" : "overflow-hidden"}`}>
           <button
             className={`w-64 h-14 relative overflow-hidden mb-2 flex items-center text-gray-300 text-xl ${isOpen ? "justify-evenly" : ""}`}>
             <div className="absolute inset-0 h-full w-full bg-[position:center_top_12.5rem] bg-[size:160%] opacity-30"
@@ -33,18 +31,18 @@ export default function Sidebar(){
             <FaRegWindowRestore className={`relative ${isOpen ? "" : "ml-7"}`} />
           </button>
           <Sidebutton to="/" icon={<HiHome />} name="Home"></Sidebutton>
-          <Sidebutton to="characters" icon={<MdPeopleAlt />} name="Characters"></Sidebutton>
-          <Sidebutton to="tier-list" icon={<FaRankingStar />} name="Tier list"></Sidebutton>
-          <Sidebutton to="memory-of-chaos" icon={<FaDungeon />} name="Memory of Chaos"></Sidebutton>
-          <Sidebutton to="pure-fiction" icon={<FaDove />} name="Pure Fiction"></Sidebutton>
-          <Sidebutton to="apocalyptic-shadow" icon={<FaHourglassHalf />} name="Apocalyptic Shadow"></Sidebutton>
-          <Sidebutton to="light-cones" icon={<FaCube />} name="Light Cones"></Sidebutton>
-          <Sidebutton to="guides/relic-sets" icon={<FaDiceFive />} name="Relics"></Sidebutton>
+          <Sidebutton to="/characters" icon={<MdPeopleAlt />} name="Characters"></Sidebutton>
+          <Sidebutton to="/tier-list" icon={<FaRankingStar />} name="Tier list"></Sidebutton>
+          <Sidebutton to="/memory-of-chaos" icon={<FaDungeon />} name="Memory of Chaos"></Sidebutton>
+          <Sidebutton to="/pure-fiction" icon={<FaDove />} name="Pure Fiction"></Sidebutton>
+          <Sidebutton to="/apocalyptic-shadow" icon={<FaHourglassHalf />} name="Apocalyptic Shadow"></Sidebutton>
+          <Sidebutton to="/light-cones" icon={<FaCube />} name="Light Cones"></Sidebutton>
+          <Sidebutton to="/guides/relic-sets" icon={<FaDiceFive />} name="Relics"></Sidebutton>
           <div className="w-full h-[1px] bg-zinc-700"></div>
-          <Sidebutton to="guides" icon={<FaBookOpen />} name="Guides"></Sidebutton>
-          <Sidebutton to="tools" icon={<FaCalculator />} name="Tools"></Sidebutton>
+          <Sidebutton to="/guides" icon={<FaBookOpen />} name="Guides"></Sidebutton>
+          <Sidebutton to="/tools" icon={<FaCalculator />} name="Tools"></Sidebutton>
           <div className="w-full h-[1px] bg-zinc-700"></div>
-          <Sidebutton to="/" icon={<FaNewspaper />} name="Blog"></Sidebutton>
+          <Sidebutton to="/blog" icon={<FaNewspaper />} name="Blog"></Sidebutton>
         </div>
       </aside>
     )

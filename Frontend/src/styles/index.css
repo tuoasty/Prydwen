@@ -12,3 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.scrollable{
+  scrollbar-color: #3f3f46 #18181b;
+}
