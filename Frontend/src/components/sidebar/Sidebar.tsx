@@ -18,7 +18,7 @@ export default function Sidebar(){
     const { isOpen } = useSidebar();
 
     return(
-      <aside className={`h-[calc(100%-4.5rem)] fixed bg-zinc-900 flex-col ${isOpen ? "w-64" : "w-[4.5rem]"}`}>
+      <aside className={`h-[calc(100%-4.5rem)] mt-[4.5rem] fixed bg-zinc-900 flex-col ${isOpen ? "w-64" : "w-[4.5rem]"}`}>
         <div className={`overflow-x-hidden h-full scrollable ${isOpen ? "overflow-y-auto" : "overflow-hidden"}`}>
           <button
             className={`w-64 h-14 relative overflow-hidden mb-2 flex items-center text-gray-300 text-xl ${isOpen ? "justify-evenly" : ""}`}>

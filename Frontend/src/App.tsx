@@ -13,10 +13,10 @@ function App(){
     <div className="h-screen w-auto flex-col overflow-hidden">
       <SidebarProvider>
         <Navbar />
-        <HorizontalLine additionalClass="fixed"/>
-        <div className="pt-[4.5rem]">
+        <HorizontalLine additionalClass="fixed mt-[4.45rem]"/>
+        <div>
           <Sidebar/>
-          <VerticalLine/>
+          <VerticalLine additionalClass="pt-[4.5rem]"/>
           <Content>
             <Routes>
               <Route path="/" element={<HomePage/>}/>

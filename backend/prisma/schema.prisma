@@ -14,18 +14,18 @@ datasource db {
 }
 
 model Character {
-  id          Int     @id @default(autoincrement())
+  id          String     @id @default(uuid())
   name        String
   rarity      Int
   imageUrl    String
-  elementId   Int
+  elementId   String
   element     Element @relation(fields: [elementId], references: [id])
-  pathId      Int
+  pathId      String
   path        Path @relation(fields: [pathId], references: [id])
 }
 
 model Element {
-  id          Int     @id @default(autoincrement())
+  id          String     @id @default(uuid())
   name        String
   color       String
   imageUrl    String
@@ -33,7 +33,7 @@ model Element {
 }
 
 model Path {
-  id          Int     @id @default(autoincrement())
+  id          String     @id @default(uuid())
   name        String
   characters  Character[]
 }
