@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Content } from './components/content/Content.tsx';
 import HomePage from './pages/HomePage.tsx';
 import CharacterPage from './pages/CharacterPage.tsx';
+import TierlistPage from './pages/TierlistPage.tsx';
 
 
 function App(){
@@ -21,6 +22,7 @@ function App(){
             <Routes>
               <Route path="/" element={<HomePage/>}/>
               <Route path="/characters" element={<CharacterPage/>}/>
+              <Route path="/tier-list" element={<TierlistPage/>}/>
             </Routes>
           </Content>
         </div>

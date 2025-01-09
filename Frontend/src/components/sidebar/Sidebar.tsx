@@ -1,4 +1,4 @@
-import starrail from "./assets/starrail.jpg"
+import starrail from "../../assets/images/starrail.webp"
 import {useSidebar} from "../../context/useSidebar.ts";
 import {Sidebutton} from "./Sidebutton.tsx";
 import { MdPeopleAlt } from "react-icons/md";

@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="Feat: Characters">
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="feat: created character module">
+      <change afterPath="$PROJECT_DIR$/Frontend/src/pages/character/CharacterPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/Homepage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/pages/Homepage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prisma/migrations/20250107062252_init/migration.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/prisma/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/prisma/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.controller.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/assets/starrail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -76,7 +68,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/KEVIN/!SLC/Random/Prydwen",
+    "last_opened_file_path": "C:/KEVIN/!SLC/Random/Prydwen/frontend/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,17 +83,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\frontend\public\static\images" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\sidebar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
       <recent name="C:\KEVIN\!! SLC\Random\Prydwen\public\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\backend\prisma" />
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\uploads\elements\physical" />
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\frontend\src\components\navbar\assets" />
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\components\navbar\assets" />
-      <recent name="C:\KEVIN\!! SLC\Random\Prydwen\src\context" />
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\pages" />
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\assets\images\character" />
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\assets\images" />
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\components" />
+      <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\pages\character" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -150,7 +143,8 @@
       <workItem from="1736213668206" duration="13369000" />
       <workItem from="1736298805610" duration="1654000" />
       <workItem from="1736301344992" duration="1872000" />
-      <workItem from="1736303656960" duration="7316000" />
+      <workItem from="1736303656960" duration="8420000" />
+      <workItem from="1736391151602" duration="7449000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -344,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736231072858</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: created character module">
+      <option name="closed" value="true" />
+      <created>1736325036775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736325036775</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +386,8 @@
     <MESSAGE value="Feat: Routes" />
     <MESSAGE value="Feat: Migrate Seeding" />
     <MESSAGE value="Feat: Characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Characters" />
+    <MESSAGE value="feat: created character module" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: created character module" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
