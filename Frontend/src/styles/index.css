@@ -16,3 +16,7 @@
 .scrollable{
   scrollbar-color: #3f3f46 #18181b;
 }
+
+.textShadow{
+  text-shadow: 0 2px 4px #000000;
+}

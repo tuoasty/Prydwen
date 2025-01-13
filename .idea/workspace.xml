@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="feat: page component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/page/Page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +143,7 @@
       <workItem from="1736391151602" duration="13329000" />
       <workItem from="1736477946959" duration="218000" />
       <workItem from="1736737126278" duration="6777000" />
+      <workItem from="1736760096149" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
