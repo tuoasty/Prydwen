@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="feat: created character module">
-      <change afterPath="$PROJECT_DIR$/Frontend/src/pages/character/CharacterPage.tsx" afterDir="false" />
+    <list default="true" id="62ad2a0e-bc8e-4dec-9ad1-9f829ef2ddc2" name="Changes" comment="feat: page component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/sidebar/assets/starrail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/components/page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/page/Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/pages/CharacterPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,25 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/KEVIN/!SLC/Random/Prydwen/frontend/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors",
-    "ts.external.directory.path": "C:\\KEVIN\\!SLC\\Random\\Prydwen\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/KEVIN/!SLC/Random/Prydwen/frontend/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\KEVIN\\!SLC\\Random\\Prydwen\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\KEVIN\!SLC\Random\Prydwen\frontend\src\assets" />
@@ -144,7 +141,9 @@
       <workItem from="1736298805610" duration="1654000" />
       <workItem from="1736301344992" duration="1872000" />
       <workItem from="1736303656960" duration="8420000" />
-      <workItem from="1736391151602" duration="7449000" />
+      <workItem from="1736391151602" duration="13329000" />
+      <workItem from="1736477946959" duration="218000" />
+      <workItem from="1736737126278" duration="6777000" />
     </task>
     <task id="LOCAL-00001" summary="feat navbar arrow">
       <option name="closed" value="true" />
@@ -346,7 +345,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736325036775</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: page component">
+      <option name="closed" value="true" />
+      <created>1736399604025</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1736399604025</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: page component">
+      <option name="closed" value="true" />
+      <created>1736399610775</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736399610775</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +402,8 @@
     <MESSAGE value="Feat: Migrate Seeding" />
     <MESSAGE value="Feat: Characters" />
     <MESSAGE value="feat: created character module" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: created character module" />
+    <MESSAGE value="feat: page component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: page component" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>
